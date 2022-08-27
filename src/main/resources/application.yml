@@ -1,0 +1,5 @@
+zuul:
+  routes:
+    4200:
+      path: /4200/**
+      url: http://localhost:8080
